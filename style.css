@@ -1,0 +1,64 @@
+@font-face {
+    font-family: 'GenFont'; /*Generic font*/
+    src: url('OpenSans-Light.ttf'); /*Your font goes here. I'll use OpenSans-Light but you should change it so it would fit your theme.*/
+}
+
+body {
+	background-image: url("background.jpg"); /*Load a background image so your page looks fancier*/
+	background-color: #3a5795; /*If the background image can't be found, it will use this!*/
+	color: #1DA361;
+}
+
+#randomThing {
+	text-align: center;
+}
+
+input {
+
+width:400px;
+height:50px;
+font-size:40px;
+border:10px;
+
+}
+
+#title{
+
+font-family:GenFont;
+text-align:center;
+font-size:70px;
+
+}
+
+#underTitle {
+	font-family: GenFont;
+	text-align: center;
+	font-size: 40px;
+	color: #D3D8E8;
+
+}
+
+#underUnderTitle {
+	font-size: 30px;
+	color: #FFFFFF;
+	font-family: GenFont;
+	text-align: center;
+
+}
+
+form {
+
+font-size:30px;
+text-align:center;
+font-family:GenFont;
+
+}
+#title {
+	color: #FFFFFF;
+}
+.email {
+	color: #D3D8E8;
+}
+.password {
+	color: #D3D8E8;
+}
